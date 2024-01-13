@@ -31,6 +31,8 @@ int main() {
     guiArray[index1].PositionX = 100;
     guiArray[index2].PositionY = 200;
 
+    guiArray[index2].TextColor = initColor3(0, 100, 255);
+
     guiArray[index1].SizeY = 300;
     updateAllGUI();
 
